@@ -16,8 +16,5 @@ fifo.enqueue("2nd")
 fifo.enqueue("3rd")
 
 print(fifo.dequeue())
-'1st'
 print(fifo.dequeue())
-'2nd'
 print(fifo.dequeue())
-'3rd'

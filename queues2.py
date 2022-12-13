@@ -17,3 +17,10 @@ class Queue:
     def dequeue(self):
         return self._elements.popleft()
 
+fifo = Queue ("1st", "2nd", "3rd")
+print(len(fifo))
+
+for elements in fifo:
+    print(elements)
+
+print(len(fifo))
