@@ -1,7 +1,9 @@
-from heapq import heappop
+from heapq import heappop,heappush
 
-fruits=["orange","apple","banana"]
-print(fruits)
+fruits=[]
+heappush(fruits,"orange")
+heappush(fruits,"apple")
+heappush(fruits,"banana")
 
 heappop(fruits)
 print(fruits)
