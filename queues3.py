@@ -3,5 +3,5 @@ class Stack(Queue):
         return self._elements.pop()
 
 lifo = Stack("1st", "2nd", "3rd")
-for elements in lifo:
+for element in lifo:
     print(element)
