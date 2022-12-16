@@ -23,4 +23,3 @@ print(len(fifo))
 for elements in fifo:
     print(elements)
 
-print(len(fifo))
